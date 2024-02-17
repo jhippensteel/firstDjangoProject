@@ -15,12 +15,12 @@
   the contents of the migrations folder (which are generated automatically when making migrations within Django), and
   urls.py (which was added during development to map incoming urls containing "/firstDjangoProject" to proper requests in views.py)
 
-  - ### templates:
-    The contents of this folder are .html templates used by views.py (located in the firstDjangoProject folder) to render content in the client's browser
-    These files were all created during development
+- ### templates:
+  The contents of this folder are .html templates used by views.py (located in the firstDjangoProject folder) to render content in the client's browser
+  These files were all created during development
 
-  - ### db.sqlite3:
-    This file represents the database where all content/data is stored for the client
+- ### db.sqlite3:
+  This file represents the database where all content/data is stored for the client
 
-    - ### manage.py:
-      This file contains code neccessary to run the Django application from the command line
+- ### manage.py:
+  This file contains code neccessary to run the Django application from the command line
