@@ -24,3 +24,24 @@
 
 - ### manage.py:
   This file contains code neccessary to run the Django application from the command line
+
+- ### .ebextensions:
+  This folder contains necessary information for deployment of project to _AWS Elastic Beanstalk_.
+
+- ### mystaticfiles:
+  This folder contains static files such as CSS, JS, and images that are to be rendered with the HTML templates on the client side
+
+- ### prodfiles:
+  This folder contains static files that are to be served during production.
+  Some of these files are copies from _mystaticfiles_ folder.
+
+- ### static:
+  This folder contains more static files meant to be rendered on the client side
+
+- ### djangoRechained.zip:
+  This folder contains all other folders and files that will be deployed through _AWS Beanstalk_.
+  This folder is uploaded to the web through the AWS console.
+
+- ### requirements.txt:
+  This file contains a list of all projects dependencies.
+  It is used during deployment to ensure all necessary packages are included.
